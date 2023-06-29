@@ -1,5 +1,22 @@
 ## Intro
 
+[Accompanying course book to this course](https://www.learnpytorch.io/)
+
+[Repo with code, exercises and slides](https://github.com/mrdbourke/pytorch-deep-learning) and [discussion](https://github.com/mrdbourke/pytorch-deep-learning/discussions)
+
+[google colab](https://colab.research.google.com/)
+
+### What will this course cover?
+
+- Pytorch basics and fundamentals / tensors and tensor operations
+- preprocessing data
+- building and using pretrained deel learning models
+- fitting a model to data (learning patterns)
+- making predictions with a model (using patterns)
+- evaluation of model predictions
+- saving and loading models
+- using a trained model on custom data
+
 ### General terms
 
 - Machine learning is turning data into numbers and finding patterns in those numbers
@@ -85,3 +102,45 @@ Depending on how a problem is represented, many algorithms can be used for both 
 The course will focus on supervised learning and transfer learning. [source](https://www.techtarget.com/searchenterpriseai/definition/reinforcement-learning)
 
 ### What is deep learning used for?
+
+- recommendation
+- translation
+- language models (chatgpt)
+- seq2seq = sequence to sequence = sequential data (audio) in, sequential data (text) out
+  - speech recognition 
+- classification / regression
+  - computer vision (self driving cars etc)
+  - natural language processing (NLP), e.g. for spam detection
+
+### Pytorch
+
+[pytorch home](https://pytorch.org/)
+
+- most popular research deep learning framework
+- fast (can run on GPUs using cuda and TPUs = tensor processing unit) 
+- can access pre-built models from [torch hub](https://pytorch.org/hub/)
+- full stack from preprocessing data to model deployment
+
+[good general ML resource: paperswithcode](https://paperswithcode.com/sota)
+
+
+### What is a tensor?
+
+- almost any representation of data
+
+![tensor](./readme_images/tenso_1r.png)
+
+[what is a tensor video](https://www.youtube.com/watch?v=f5liqUk0ZTw)
+
+### Pytorch workflow
+
+![pytorch workflow](./readme_images/pytorch_workflow.png)
+
+## Google colab
+
+- Use GPUs: Runtime -> change runtime type
+- convert cell to text cell: **ctrl-m m**
+- run cell: ctrl-enter
+ 
+[00_pytorch_fundamentals_video.ipynb](https://colab.research.google.com/drive/16H1vO_v4m_2oHxCcu6jl-G4XtrJZvuSp)
+
