@@ -132,6 +132,17 @@ The course will focus on supervised learning and transfer learning. [source](htt
 
 [what is a tensor video](https://www.youtube.com/watch?v=f5liqUk0ZTw)
 
+Pytorch: A `torch.Tensor` is a multi-dimensional matrix containing elements of a single data type.
+
+![scalar to tensor](./readme_images/scalar_to_tensor.png)
+
+
+taken from https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.1-Scalars-Vectors-Matrices-and-Tensors/ 
+
+Note: ALL items are tensors, just with different numbers of dimensions (scalar: 0 dimensions, Tensor: 3+ dimensions)
+
+Typically scalars and vectors are written lowercase (e.g. `myscalar`, `coords`) and matrices and tensors in UPPERCASE (e.g. `MATRIX`, `DATA`)
+
 ### Pytorch workflow
 
 ![pytorch workflow](./readme_images/pytorch_workflow.png)
@@ -141,6 +152,12 @@ The course will focus on supervised learning and transfer learning. [source](htt
 - Use GPUs: Runtime -> change runtime type
 - convert cell to text cell: **ctrl-m m**
 - run cell: ctrl-enter
+- run from current cell to the end: ctrl-f10
+- ctrl-d to select the next match of the currently marked text works too
  
-[00_pytorch_fundamentals_video.ipynb](https://colab.research.google.com/drive/16H1vO_v4m_2oHxCcu6jl-G4XtrJZvuSp)
+## Most course notes from here on the individual notebooks
+
+- [00_pytorch_fundamentals_video.ipynb](./00_pytorch_fundamentals_video.ipynb)
+- [00_pytorch_fundamentals_video.ipynb](./00_pytorch_fundamentals_exercises_done.ipynb)
+
 
