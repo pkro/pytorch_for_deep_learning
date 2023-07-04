@@ -160,4 +160,19 @@ Typically scalars and vectors are written lowercase (e.g. `myscalar`, `coords`) 
 - [00_pytorch_fundamentals_video.ipynb](./00_pytorch_fundamentals_video.ipynb)
 - [00_pytorch_fundamentals_video.ipynb](./00_pytorch_fundamentals_exercises_done.ipynb)
 
+## Unsorted / images for the colabs
+
+Nice chatgpt analogy for gradient descent and backpropagation:
+
+>Backpropagation and the concept of gradients can be complex topics, especially if you're just getting started with neural networks and deep learning. It's great that you're asking questions and seeking to understand these concepts.
+> 
+>Here's a simpler way to think about it: imagine you're on a hill and your goal is to get to the bottom. You're blindfolded, so you can't see where to go, but you can feel the slope of the hill under your feet.
+> 
+>If you feel the ground sloping downwards to your right, you know that if you step to the right, you'll go downhill. If you feel the ground sloping downwards to your left, you know that if you step to the left, you'll go downhill. By repeatedly feeling the slope under your feet and taking a step downhill, you'll eventually reach the bottom of the hill.
+> 
+>In this analogy, the hill is the loss function, your position on the hill is the weights of the neural network, and the slope that you feel under your feet is the gradient. Just like how you can use the slope to figure out which way to step to go downhill, a neural network can use the gradient to figure out how to adjust its weights to reduce the loss.
+> 
+>The process of calculating the slope (gradient) is what we call backpropagation, and the process of taking a step downhill (updating the weights) is what we call an optimization step.
+
+![linear regression formula](./readme_images/linreg_formula.png)
 
